@@ -10,6 +10,20 @@
 
 An example showcasing the usage of https://github.com/PRO-2684/rust-template.
 
+## ⚙️ Automatic Releases Setup
+
+1. [Create a new GitHub repository](https://github.com/new) with the name `rust-template-example` and push this generated project to it.
+2. Enable Actions for the repository, and grant "Read and write permissions" to the workflow [here](https://github.com/PRO-2684/rust-template-example/settings/actions).
+3. [Generate an API token on crates.io](https://crates.io/settings/tokens/new), with the following setup:
+
+    - `Name`: `rust-template-example`
+    - `Expiration`: `No expiration`
+    - `Scopes`: `publish-new`, `publish-update`
+    - `Crates`: `rust-template-example`
+
+4. [Add a repository secret](https://github.com/PRO-2684/rust-template-example/settings/secrets/actions) named `CARGO_TOKEN` with the generated token as its value.
+5. Consider removing this section and updating this README with your own project information.
+
 ## 📥 Installation
 
 ### Using [`binstall`](https://github.com/cargo-bins/cargo-binstall)
