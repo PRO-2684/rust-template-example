@@ -1,6 +1,6 @@
 [package]
 name = "rust-template-example"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2024"
 readme = "README.md"
 description = "An example showcasing the usage of https://github.com/PRO-2684/rust-template."
