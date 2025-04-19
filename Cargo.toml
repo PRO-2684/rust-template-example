@@ -1,15 +1,15 @@
 [package]
 name = "rust-template-example"
-version = "0.1.2"
+version = "0.1.3"
 edition = "2024"
 readme = "README.md"
 description = "An example showcasing the usage of https://github.com/PRO-2684/rust-template."
 keywords = []
 categories = []
 include = ["src", "README.md", "LICENSE"]
-repository = "https://github.com/PRO-2684/rust-template-example"
+repository = "https://github.com/runner/rust-template-example"
 license = "MIT"
-authors = ["PRO-2684"]
+authors = ["runner"]
 
 [dependencies]
 
